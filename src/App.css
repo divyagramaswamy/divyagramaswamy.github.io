@@ -16,3 +16,85 @@
   font-weight: bold;
   color: #666;
 }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #0070f3;
+}
+
+nav a:active {
+  font-weight: 600;
+  border-bottom: 2px solid #222;
+  padding-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 26px;
+  font-weight: 500;
+  color: #555;
+}
+.profile-photo {
+  width: 600px;
+  height: 600px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  border-radius: 12px;
+}
+.intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  justify-content: space-between;
+}
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.socials {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.social-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: con tain;
+
+}
+.experience-intro {
+  max-width:650px;
+  margin-bottom: 40px;
+  color: #666;
+}
+.experience-section {
+  max-width: 1200px;
+  margin-top:50px;
+  margin-bottom: 1px;
+  justify-content: center;
+}
+.experience-section h2 {
+  font-size: 28px;
+  color: #666;
+
+}
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
